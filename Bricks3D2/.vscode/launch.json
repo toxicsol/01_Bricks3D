@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Bricks3D (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Bricks3D Win64 Debug Build",
+			"program": "G:\\Unreal Projects\\Bricks3D\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Bricks3D (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Bricks3D Win64 DebugGame Build",
+			"program": "G:\\Unreal Projects\\Bricks3D\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Bricks3D (Development)",
+			"request": "launch",
+			"preLaunchTask": "Bricks3D Win64 Development Build",
+			"program": "G:\\Unreal Projects\\Bricks3D\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Bricks3D (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Bricks3D Win64 Shipping Build",
+			"program": "G:\\Unreal Projects\\Bricks3D\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Bricks3D (Test)",
+			"request": "launch",
+			"preLaunchTask": "Bricks3D Win64 Test Build",
+			"program": "G:\\Unreal Projects\\Bricks3D\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Bricks3DEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Bricks3DEditor Win64 Debug Build",
+			"program": "D:\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"G:\\Unreal Projects\\Bricks3D\\Bricks3D.uproject"
+			],
+			"cwd": "D:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Bricks3DEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Bricks3DEditor Win64 DebugGame Build",
+			"program": "D:\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"G:\\Unreal Projects\\Bricks3D\\Bricks3D.uproject"
+			],
+			"cwd": "D:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Bricks3DEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Bricks3DEditor Win64 Development Build",
+			"program": "D:\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"G:\\Unreal Projects\\Bricks3D\\Bricks3D.uproject"
+			],
+			"cwd": "D:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"G:\\Unreal Projects\\Bricks3D\\Bricks3D.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\UE_4.24"
+		}
+	]
+}
